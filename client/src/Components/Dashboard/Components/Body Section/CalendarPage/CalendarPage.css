@@ -1,0 +1,42 @@
+.calendarPage {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+  }
+  
+  .calendarContainer {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .customCalendar {
+    max-width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .selectedDate {
+    margin-top: 20px;
+  }
+  
+  .selectedDate h2 {
+    color: #007bff;
+  }
+  
+  .selectedDate p {
+    margin-top: 10px;
+    color: #555;
+  }
+  

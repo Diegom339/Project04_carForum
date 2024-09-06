@@ -1,0 +1,58 @@
+.accountPage {
+    display: flex;
+    background-color: #f9f9f9;
+    height: 100vh;
+  }
+  
+  .accountContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 20px;
+  }
+  
+  .accountContent h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .accountDetails, .accountActions {
+    margin-bottom: 20px;
+  }
+  
+  .accountDetails h3, .accountActions h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .accountDetails p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .accountActions .btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .accountActions .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .accountActions .logOutBtn {
+    background-color: #dc3545;
+  }
+  
+  .accountActions .logOutBtn:hover {
+    background-color: #c82333;
+  }
+  

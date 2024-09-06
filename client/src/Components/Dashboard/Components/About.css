@@ -1,0 +1,25 @@
+.aboutPage {
+  display: flex;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+
+.aboutContent {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.aboutContent h1, .aboutContent h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.aboutContent p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}

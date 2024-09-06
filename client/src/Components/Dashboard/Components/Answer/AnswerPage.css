@@ -1,0 +1,85 @@
+.answersPage {
+    padding: 20px;
+    background-color: #ecf0f1;
+  }
+  
+  .questionSection {
+    margin-bottom: 20px;
+  }
+  
+  .questionSection h1 {
+    font-size: 24px;
+    color: #2c3e50;
+  }
+  
+  .questionSection p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #34495e;
+  }
+  
+  .questionSection small {
+    color: #7f8c8d;
+  }
+  
+  .answersSection {
+    margin-bottom: 20px;
+  }
+  
+  .answersSection h2 {
+    font-size: 22px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .answerItem {
+    padding: 15px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    background-color: white;
+    margin-bottom: 15px;
+  }
+  
+  .answerItem p {
+    font-size: 16px;
+    color: #34495e;
+    margin-bottom: 5px;
+  }
+  
+  .answerItem small {
+    color: #7f8c8d;
+  }
+  
+  .answerForm h2 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .answerForm form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .answerForm textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 100px;
+  }
+  
+  .answerForm button {
+    padding: 10px;
+    border: none;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .answerForm button:hover {
+    background-color: #2ecc71;
+  }
+  

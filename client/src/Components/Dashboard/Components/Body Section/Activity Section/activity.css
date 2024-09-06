@@ -1,0 +1,149 @@
+/* Colors and Styles (Default) */
+:root {
+  --PrimaryColor: hsl(0, 100%, 50%);
+  --HoverColor: #fa2727;
+  --paleGreen: hsl(0, 0%, 100%);
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(0, 0%, 18%);
+  --textColor: hsl(240, 1%, 48%);
+  --bgColor: hsl(220, 10%, 94%);
+  --greyText: rgb(190, 190, 190);
+  --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
+  /* Font ang Typography */
+  --biggestFontSize: 2.5rem;
+  --h1FontSize: 1.5rem;
+  --h2FontSize: 1.25rem;
+  --h3FontSize: 1rem;
+  --normalFontSize: .938rem;
+  --smallFontSize: .813rem;
+  --smallestFontSize: .75rem;
+}
+
+.activitySection {
+  flex-basis: 50%;
+}
+.activitySection .heading {
+  width: 100%;
+  justify-content: space-between;
+}
+.activitySection .heading h1 {
+  font-size: var(--h2FontSize);
+  color: var(--blackColor);
+  font-weight: 700;
+}
+.activitySection .heading .btn {
+  border: 1px solid transparent;
+}
+.activitySection .heading .btn:hover {
+  border: 1px solid var(--PrimaryColor);
+}
+.activitySection .secContainer {
+  margin-top: 1rem;
+}
+.activitySection .secContainer .singleCustomer {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.activitySection .secContainer .singleCustomer img {
+  width: 40px;
+  height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px var(--itemCardColor);
+  margin-right: 1rem;
+}
+.activitySection .secContainer .singleCustomer .customerDetails {
+  flex: 1;
+}
+.activitySection .secContainer .singleCustomer .customerDetails .name {
+  font-size: var(--h3FontSize);
+  font-weight: 600;
+  color: var(--blackColor);
+  display: block;
+}
+.activitySection .secContainer .singleCustomer .customerDetails small {
+  font-weight: 500;
+  color: var(--textColor);
+  font-size: var(--smallFontSize);
+}
+.activitySection .secContainer .singleCustomer .duration {
+  color: var(--textColor);
+  font-weight: 500;
+  font-size: var(--smallestFontSize);
+}
+
+@media screen and (max-width: 918px) {
+  .activitySection {
+    width: 100%;
+  }
+}/*# sourceMappingURL=activity.css.map */
+.activitySection {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.heading {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fa4343;
+}
+
+.secContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.singleEvent {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.singleEvent img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.eventDetails {
+  padding: 15px;
+  color: #333;
+}
+
+.eventName {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.eventDetails small {
+  display: block;
+  margin-top: 5px;
+  color: #666;
+}
+
+.duration {
+  padding: 10px 15px;
+  color: #666;
+  background-color: #f0f0f0;
+  border-top: 1px solid #e7e7e7;
+  font-size: 14px;
+}
